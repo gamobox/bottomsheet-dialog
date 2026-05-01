@@ -1,0 +1,135 @@
+[22:58:28.343] [INFO] [36mInitializing Storybook[39m
+[22:58:28.659] [DEBUG] Getting package.json info for /home/gamobox/repositories/caique/apps/storybook/package.json...
+[22:58:28.664] [DEBUG] Getting CLI versions from NPM for storybook...
+[22:58:28.664] [DEBUG] Executing command: pnpm info storybook version
+[22:58:30.182] [INFO] Adding Storybook version 10.3.6 to your project
+[22:58:30.182] [INFO] Installing Storybook for user specified project type: web_components
+[22:58:30.188] [DEBUG] Using cached package.json for /home/gamobox/repositories/caique/apps/storybook/package.json...
+[22:58:30.188] [DEBUG] Using cached package.json for /home/gamobox/repositories/caique/package.json...
+[22:59:15.126] [PROMPT] We were not able to detect the right builder for your project. Please select one: {"choice":"vite"}
+[22:59:15.126] [INFO] Framework detected: web-components-vite
+[22:59:15.127] [DEBUG] Getting installed version for vitest...
+[22:59:15.131] [DEBUG] Executing command: pnpm list "vitest" --json --depth=99
+[22:59:15.495] [DEBUG] Installed version for vitest: 1.6.1
+[22:59:15.495] [DEBUG] Getting installed version for msw...
+[22:59:15.495] [DEBUG] Executing command: pnpm list "msw" --json --depth=99
+[22:59:15.801] [DEBUG] No installations found for msw
+[22:59:15.814] [INFO] base-generator-task-start: Generating Storybook configuration
+[22:59:15.814] [DEBUG] Using cached package.json for /home/gamobox/repositories/caique/apps/storybook/package.json...
+[22:59:15.814] [DEBUG] Using cached package.json for /home/gamobox/repositories/caique/apps/storybook/package.json...
+[22:59:15.814] [DEBUG] Using cached package.json for /home/gamobox/repositories/caique/package.json...
+[22:59:15.814] [DEBUG] Using cached package.json for /home/gamobox/repositories/caique/apps/storybook/package.json...
+[22:59:15.814] [DEBUG] Using cached version for storybook...
+[22:59:15.814] [DEBUG] Getting CLI versions from NPM for @storybook/web-components-vite...
+[22:59:15.814] [DEBUG] Executing command: pnpm info @storybook/web-components-vite version
+[22:59:15.817] [DEBUG] Getting CLI versions from NPM for @storybook/addon-a11y...
+[22:59:15.817] [DEBUG] Executing command: pnpm info @storybook/addon-a11y version
+[22:59:15.818] [DEBUG] Getting CLI versions from NPM for @storybook/addon-docs...
+[22:59:15.818] [DEBUG] Executing command: pnpm info @storybook/addon-docs version
+[22:59:15.820] [DEBUG] Getting CLI versions from NPM for lit...
+[22:59:15.820] [DEBUG] Executing command: pnpm info lit version
+[22:59:17.317] [INFO] base-generator-task: - Configuring main.ts
+[22:59:17.318] [INFO] base-generator-task: - Configuring preview.ts
+[22:59:17.319] [INFO] base-generator-task: - Adding Storybook command to package.json
+[22:59:17.320] [DEBUG] Getting package.json info for /home/gamobox/repositories/caique/apps/storybook/package.json...
+[22:59:17.320] [DEBUG] Using cached package.json for /home/gamobox/repositories/caique/apps/storybook/package.json...
+[22:59:17.320] [DEBUG] Using cached package.json for /home/gamobox/repositories/caique/apps/storybook/package.json...
+[22:59:17.320] [INFO] base-generator-task: - Copying framework templates
+[22:59:17.345] [DEBUG] Executing command: npm config get registry -ws=false -iwr
+[22:59:17.770] [INFO] base-generator-task-success: Storybook configuration generated
+[22:59:17.770] [INFO] adding-dependencies-task-start: Adding dependencies to package.json
+[22:59:17.771] [INFO] adding-dependencies-task: Adding devDependencies:
+- storybook@^10.3.6
+- @storybook/web-components-vite@^10.3.6
+- @storybook/addon-a11y@^10.3.6
+- @storybook/addon-docs@^10.3.6
+- lit@^3.3.2
+[22:59:17.771] [DEBUG] Using cached package.json for /home/gamobox/repositories/caique/apps/storybook/package.json...
+[22:59:17.771] [DEBUG] Using cached version for storybook...
+[22:59:17.771] [DEBUG] Using cached version for @storybook/web-components-vite...
+[22:59:17.771] [DEBUG] Using cached version for @storybook/addon-a11y...
+[22:59:17.771] [DEBUG] Using cached version for @storybook/addon-docs...
+[22:59:17.771] [DEBUG] Using cached version for lit...
+[22:59:17.771] [DEBUG] Using cached package.json for /home/gamobox/repositories/caique/apps/storybook/package.json...
+[22:59:17.771] [INFO] adding-dependencies-task-success: Dependencies added to package.json
+[22:59:17.771] [INFO] Installing dependencies...
+[22:59:17.771] [INFO] install-dependencies-spinner-start: Installing dependencies...
+[22:59:17.772] [DEBUG] Executing command: pnpm install
+[22:59:18.050] [INFO] Installing dependencies...: Scope: all 4 workspace projects
+
+[22:59:18.050] [INFO] install-dependencies-spinner: Installing dependencies...: Scope: all 4 workspace pr
+[22:59:18.199] [INFO] Installing dependencies...: ../..                                    | Progress: resolved 1, reused 0, downloaded 0, added 0
+
+[22:59:18.199] [INFO] install-dependencies-spinner: Installing dependencies...: ../..                    
+[22:59:19.199] [INFO] Installing dependencies...: ../..                                    | Progress: resolved 8, reused 6, downloaded 1, added 0
+
+[22:59:19.199] [INFO] install-dependencies-spinner: Installing dependencies...: ../..                    
+[22:59:20.200] [INFO] Installing dependencies...: ../..                                    | Progress: resolved 345, reused 247, downloaded 6, added 0
+
+[22:59:20.200] [INFO] install-dependencies-spinner: Installing dependencies...: ../..                    
+[22:59:21.224] [INFO] Installing dependencies...: ../..                                    | Progress: resolved 356, reused 248, downloaded 17, added 0
+
+[22:59:21.224] [INFO] install-dependencies-spinner: Installing dependencies...: ../..                    
+[22:59:22.247] [INFO] Installing dependencies...: ../..                                    | Progress: resolved 359, reused 249, downloaded 19, added 0
+
+[22:59:22.247] [INFO] install-dependencies-spinner: Installing dependencies...: ../..                    
+[22:59:22.665] [INFO] Installing dependencies...: ../..                                    |  +81 ++++++++
+
+[22:59:22.665] [INFO] install-dependencies-spinner: Installing dependencies...: ../..                    
+[22:59:22.721] [INFO] Installing dependencies...: ../..                                    | Progress: resolved 371, reused 259, downloaded 22, added 81, done
+
+[22:59:22.721] [INFO] install-dependencies-spinner: Installing dependencies...: ../..                    
+[22:59:22.853] [INFO] Installing dependencies...: 
+devDependencies:
++ @storybook/addon-a11y 10.3.6
++ @storybook/addon-docs 10.3.6
++ @storybook/web-components-vite 10.3.6
++ lit 3.3.2
++ storybook 10.3.6
+
+
+[22:59:22.853] [INFO] install-dependencies-spinner: Installing dependencies...: devDependencies:
++ @story
+[22:59:22.883] [INFO] Installing dependencies...: Done in 4.9s using pnpm v11.0.3
+
+[22:59:22.883] [INFO] install-dependencies-spinner: Installing dependencies...: Done in 4.9s using pnpm v
+[22:59:22.941] [INFO] Dependencies installed
+[22:59:22.941] [INFO] install-dependencies-spinner-stop: Dependencies installed
+[22:59:22.943] [INFO] configure-addons-task-start: Configuring addons...
+[22:59:22.944] [INFO] configure-addons-task: Configuring @storybook/addon-a11y...
+[22:59:22.944] [DEBUG] Getting package.json info for /home/gamobox/repositories/caique/apps/storybook/package.json...
+[22:59:22.944] [DEBUG] Executing command: pnpm dlx storybook@10.3.6 automigrate addon-a11y-addon-test --loglevel silent --skip-doctor --yes --package-manager pnpm --config-dir .storybook
+[22:59:23.784] [DEBUG] {
+  "shortMessage": "Command failed with exit code 1: pnpm dlx 'storybook@10.3.6' automigrate addon-a11y-addon-test --loglevel silent --skip-doctor --yes --package-manager pnpm --config-dir .storybook",
+  "command": "pnpm dlx storybook@10.3.6 automigrate addon-a11y-addon-test --loglevel silent --skip-doctor --yes --package-manager pnpm --config-dir .storybook",
+  "escapedCommand": "pnpm dlx 'storybook@10.3.6' automigrate addon-a11y-addon-test --loglevel silent --skip-doctor --yes --package-manager pnpm --config-dir .storybook",
+  "cwd": "/home/gamobox/repositories/caique/apps/storybook",
+  "durationMs": 839.066274,
+  "failed": true,
+  "timedOut": false,
+  "isCanceled": false,
+  "isGracefullyCanceled": false,
+  "isTerminated": false,
+  "isMaxBuffer": false,
+  "isForcefullyTerminated": false,
+  "exitCode": 1,
+  "stdout": "",
+  "stderr": "Progress: resolved 1, reused 0, downloaded 0, added 0\nPackages: +67\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\nProgress: resolved 92, reused 67, downloaded 0, added 0, done\n ERR_PNPM_IGNORED_BUILDS  Ignored build scripts: esbuild@0.27.7\n\nRun \"pnpm approve-builds\" to pick which dependencies should be allowed to run scripts.",
+  "stdio": [
+    null,
+    "",
+    "Progress: resolved 1, reused 0, downloaded 0, added 0\nPackages: +67\n+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\nProgress: resolved 92, reused 67, downloaded 0, added 0, done\n ERR_PNPM_IGNORED_BUILDS  Ignored build scripts: esbuild@0.27.7\n\nRun \"pnpm approve-builds\" to pick which dependencies should be allowed to run scripts."
+  ],
+  "ipcOutput": [],
+  "pipedFrom": []
+}
+[22:59:23.784] [INFO] configure-addons-task: Configuring @storybook/addon-docs...
+[22:59:23.785] [INFO] configure-addons-task: @storybook/addon-docs configured
+
+[22:59:23.785] [ERROR] configure-addons-task-error: Failed to configure addons
+[22:59:23.785] [INFO] [2m❌ @storybook/addon-a11y[22m
+[22:59:23.786] [INFO] [2m✅ @storybook/addon-docs[22m
+[22:59:23.786] [WARN] Storybook setup completed, but some non-blocking errors occurred. Please check the log file below for details.
+[22:59:23.786] [INFO] To run Storybook manually, run [36mpnpm run storybook[39m. CTRL+C to stop.
+[22:59:23.787] [INFO] Want to learn more about Storybook? [36mhttps://storybook.js.org/[39m
+Having trouble or want to chat? [36mhttps://discord.gg/storybook/[39m

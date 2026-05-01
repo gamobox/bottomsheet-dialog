@@ -1,0 +1,21 @@
+{
+  "name": "@bottomsheet-dialog/storybook",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@bottomsheet-dialog/element": "workspace:*"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^10.3.6",
+    "@storybook/addon-docs": "^10.3.6",
+    "@storybook/web-components-vite": "^10.3.6",
+    "lit": "^3.3.2",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "storybook": "^10.3.6"
+  }
+}
