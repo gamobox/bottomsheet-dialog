@@ -125,6 +125,11 @@ export class BsDialog extends HTMLElement {
             box-sizing: border-box;
             border: 2px solid CanvasText;
           }
+          .drag-handle-bar {
+            box-sizing: border-box;
+            border: 2px solid CanvasText;
+            background-color: transparent;
+          }
         }
 
         /* Accessibility: Reduced Motion */
@@ -166,6 +171,8 @@ export class BsDialog extends HTMLElement {
           height: 4px;
           background: var(--bs-dialog-handle-color, #e0e0e0);
           border-radius: 2px;
+          position: absolute;
+          inset: 8px auto;
         }
 
         .slot-container {
