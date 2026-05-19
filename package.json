@@ -10,7 +10,7 @@
     "dev": "pnpm -r run dev",
     "lint": "oxlint",
     "test": "vitest",
-    "storybook": "pnpm -F @bottomsheet-dialog/storybook run storybook",
+    "storybook": "pnpm -F @bottomsheet-dialog/storybook run storybook --host 127.0.0.1 --port 6006",
     "changeset": "changeset",
     "version": "changeset version",
     "release": "pnpm build && changeset publish"

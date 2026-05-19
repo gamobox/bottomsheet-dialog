@@ -76,6 +76,7 @@ export class BsDialog extends HTMLElement {
           
         /* Closed state explicit styles */
           display: none;
+          flex-direction: column;
           opacity: 0;
           /* Use a single transform declaration and change the variable to avoid Safari calc() interpolation bugs */
           transform: translateY(calc(100% * (1 - var(--_current-snap, 0))));
@@ -121,6 +122,7 @@ export class BsDialog extends HTMLElement {
         /* Accessibility: Forced Colors Mode (High Contrast) */
         @media (forced-colors: active) {
           dialog {
+            box-sizing: border-box;
             border: 2px solid CanvasText;
           }
         }

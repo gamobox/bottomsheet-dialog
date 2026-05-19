@@ -17,6 +17,8 @@ This repository is managed as a monorepo using `pnpm` workspaces.
 |---|---|
 | [`@bottomsheet-dialog/core`](./packages/core) | Framework-agnostic core logic and state management (e.g., Drawer logic, Drag controllers). |
 | [`@bottomsheet-dialog/element`](./packages/element) | Web Components wrapping the core logic to provide ready-to-use UI elements. |
+| [`@bottomsheet-dialog/react`](./packages/react) | React wrapper for the Bottom Sheet web components. |
+| [`@bottomsheet-dialog/vue`](./packages/vue) | Vue wrapper for the Bottom Sheet web components. |
 
 ## Components
 

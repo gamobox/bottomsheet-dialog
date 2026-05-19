@@ -49,6 +49,7 @@
           
         /* Closed state explicit styles */
           display: none;
+          flex-direction: column;
           opacity: 0;
           /* Use a single transform declaration and change the variable to avoid Safari calc() interpolation bugs */
           transform: translateY(calc(100% * (1 - var(--_current-snap, 0))));

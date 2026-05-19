@@ -1,0 +1,35 @@
+{
+  "name": "@bottomsheet-dialog/vue",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "oxlint",
+    "test": "echo \"Error: no test specified\""
+  },
+  "dependencies": {
+    "@bottomsheet-dialog/element": "workspace:*"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "vue": "^3.4.27",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
