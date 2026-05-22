@@ -2,6 +2,8 @@
 
 ネイティブの `<dialog>` 要素をベースに構築された、モダンでアクセシブルな Bottom Sheet（ハーフモーダル）の Web Components ライブラリです。
 
+### 🚀 [Live Demo](https://bottomsheet-dialog-m-7007.bolt.host/)
+
 ## インストール
 
 ```bash
