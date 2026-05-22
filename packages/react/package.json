@@ -4,6 +4,15 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamobox/bottomsheet-dialog.git",
+    "directory": "packages/react"
+  },
+  "bugs": {
+    "url": "https://github.com/gamobox/bottomsheet-dialog/issues"
+  },
+  "homepage": "https://github.com/gamobox/bottomsheet-dialog#readme",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",

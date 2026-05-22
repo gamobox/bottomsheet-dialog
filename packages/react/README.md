@@ -1,20 +1,20 @@
 # @bottomsheet-dialog/react
 
-\`@bottomsheet-dialog/element\` を React 環境で型安全かつシームレスに利用するための React ラッパーコンポーネントです。
+`@bottomsheet-dialog/element` を React 環境で型安全かつシームレスに利用するための React ラッパーコンポーネントです。
 
 ## インストール
 
-\`\`\`bash
+```bash
 npm install @bottomsheet-dialog/react
 # または
 pnpm add @bottomsheet-dialog/react
-\`\`\`
+```
 
 ## 使い方
 
-\`BsDialog\` コンポーネントをインポートして使用します。
+`BsDialog` コンポーネントをインポートして使用します。
 
-\`\`\`tsx
+```tsx
 import React, { useRef, useState } from 'react';
 import { BsDialog, BsButton } from '@bottomsheet-dialog/react';
 import type { BsDialogElement } from '@bottomsheet-dialog/react';
@@ -56,34 +56,34 @@ function App() {
 }
 
 export default App;
-\`\`\`
+```
 
-## \`BsDialog\` API
+## `BsDialog` API
 
 ### Props
 
-標準の HTMLAttributes に加え、以下の Props をサポートしています。（Reactの標準ドラッグイベントと競合を避けるため、ネイティブの \`onDragStart\` / \`onDragEnd\` は Omit されています）
+標準の HTMLAttributes に加え、以下の Props をサポートしています。（Reactの標準ドラッグイベントと競合を避けるため、ネイティブの `onDragStart` / `onDragEnd` は Omit されています）
 
 | Prop名 | 型 | 説明 |
 |---|---|---|
-| \`open\` | \`boolean\` | ダイアログの開閉状態を制御します。 |
-| \`snapPoints\` | \`number[] \| string\` | スナップポイントの配列またはカンマ区切りの文字列。例: \`[0.3, 0.8, 1]\` |
-| \`persistKey\` | \`string\` | 状態を保存するためのキーを指定します。 |
-| \`onOpen\` | \`(event: Event) => void\` | ダイアログが開いた時のイベントハンドラ。 |
-| \`onClose\` | \`(event: Event) => void\` | ダイアログが閉じた時のイベントハンドラ。 |
-| \`onSnapChange\` | \`(event: CustomEvent<{ point: number; index: number }>) => void\` | スナップポイントが変更された時のイベントハンドラ。 |
-| \`onDragStart\` | \`(event: Event) => void\` | ドラッグを開始した時のイベントハンドラ。 |
-| \`onDragEnd\` | \`(event: Event) => void\` | ドラッグを終了した時のイベントハンドラ。 |
+| `open` | `boolean` | ダイアログの開閉状態を制御します。 |
+| `snapPoints` | `number[] \| string` | スナップポイントの配列またはカンマ区切りの文字列。例: `[0.3, 0.8, 1]` |
+| `persistKey` | `string` | 状態を保存するためのキーを指定します。 |
+| `onOpen` | `(event: Event) => void` | ダイアログが開いた時のイベントハンドラ。 |
+| `onClose` | `(event: Event) => void` | ダイアログが閉じた時のイベントハンドラ。 |
+| `onSnapChange` | `(event: CustomEvent<{ point: number; index: number }>) => void` | スナップポイントが変更された時のイベントハンドラ。 |
+| `onDragStart` | `(event: Event) => void` | ドラッグを開始した時のイベントハンドラ。 |
+| `onDragEnd` | `(event: Event) => void` | ドラッグを終了した時のイベントハンドラ。 |
 
 ### Ref (Methods)
 
-\`useRef<BsDialogElement>\` 経由で以下のネイティブメソッドにアクセス可能です。
+`useRef<BsDialogElement>` 経由で以下のネイティブメソッドにアクセス可能です。
 
 | メソッド名 | 説明 |
 |---|---|
-| \`open()\` | ダイアログを開きます。 |
-| \`close()\` | ダイアログを閉じます。 |
+| `open()` | ダイアログを開きます。 |
+| `close()` | ダイアログを閉じます。 |
 
-## \`BsButton\` API
+## `BsButton` API
 
-標準の \`button\` 要素と同じ Props（\`React.ButtonHTMLAttributes\`）を受け付けるシンプルなボタンコンポーネントです。
+標準の `button` 要素と同じ Props（`React.ButtonHTMLAttributes`）を受け付けるシンプルなボタンコンポーネントです。

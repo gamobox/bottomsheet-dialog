@@ -1,20 +1,20 @@
 # @bottomsheet-dialog/vue
 
-\`@bottomsheet-dialog/element\` を Vue 3 環境で型安全かつシームレスに利用するための Vue ラッパーコンポーネントです。
+`@bottomsheet-dialog/element` を Vue 3 環境で型安全かつシームレスに利用するための Vue ラッパーコンポーネントです。
 
 ## インストール
 
-\`\`\`bash
+```bash
 npm install @bottomsheet-dialog/vue
 # または
 pnpm add @bottomsheet-dialog/vue
-\`\`\`
+```
 
 ## 使い方
 
-\`BsDialog\` コンポーネントをインポートして使用します。
+`BsDialog` コンポーネントをインポートして使用します。
 
-\`\`\`vue
+```vue
 <script setup lang="ts">
 import { ref } from 'vue';
 import { BsDialog, BsButton } from '@bottomsheet-dialog/vue';
@@ -57,37 +57,37 @@ const handleSnapChange = (detail: { point: number; index: number }) => {
     </BsDialog>
   </div>
 </template>
-\`\`\`
+```
 
-## \`BsDialog\` API
+## `BsDialog` API
 
 ### Props
 
 | Prop名 | 型 | 説明 |
 |---|---|---|
-| \`open\` | \`boolean\` | ダイアログの開閉状態を制御します。 |
-| \`snapPoints\` | \`number[] \| string\` | スナップポイントの配列またはカンマ区切りの文字列。例: \`[0.3, 0.8, 1]\` |
-| \`persistKey\` | \`string\` | 状態を保存するためのキーを指定します。 |
+| `open` | `boolean` | ダイアログの開閉状態を制御します。 |
+| `snapPoints` | `number[] \| string` | スナップポイントの配列またはカンマ区切りの文字列。例: `[0.3, 0.8, 1]` |
+| `persistKey` | `string` | 状態を保存するためのキーを指定します。 |
 
 ### Emits (イベント)
 
-| イベント名 | 引数 (\`$event\`) | 説明 |
+| イベント名 | 引数 (`$event`) | 説明 |
 |---|---|---|
-| \`@open\` | \`Event\` | ダイアログが開いた時。 |
-| \`@close\` | \`Event\` | ダイアログが閉じた時。 |
-| \`@snap-change\` | \`{ point: number; index: number }\` | スナップポイントが変更された時。 |
-| \`@drag-start\` | \`Event\` | ドラッグを開始した時。 |
-| \`@drag-end\` | \`Event\` | ドラッグを終了した時。 |
+| `@open` | `Event` | ダイアログが開いた時。 |
+| `@close` | `Event` | ダイアログが閉じた時。 |
+| `@snap-change` | `{ point: number; index: number }` | スナップポイントが変更された時。 |
+| `@drag-start` | `Event` | ドラッグを開始した時。 |
+| `@drag-end` | `Event` | ドラッグを終了した時。 |
 
 ### Ref (Methods)
 
-コンポーネントの \`ref\` 経由で以下のメソッドにアクセス可能です。
+コンポーネントの `ref` 経由で以下のメソッドにアクセス可能です。
 
 | メソッド名 | 説明 |
 |---|---|
-| \`open()\` | ダイアログを開きます。 |
-| \`close()\` | ダイアログを閉じます。 |
+| `open()` | ダイアログを開きます。 |
+| `close()` | ダイアログを閉じます。 |
 
-## \`BsButton\` API
+## `BsButton` API
 
-標準の \`button\` 要素と同じように扱えるシンプルなボタンコンポーネントです。
+標準の `button` 要素と同じように扱えるシンプルなボタンコンポーネントです。
