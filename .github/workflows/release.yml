@@ -25,6 +25,8 @@ jobs:
         with:
           node-version: 24
           cache: 'pnpm'
+      - name: Update npm to latest (fixes OIDC handshake issue)
+        run: npm install -g npm@latest
       - run: pnpm install
       - run: pnpm build
 
