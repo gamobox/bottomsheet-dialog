@@ -16,10 +16,10 @@
     "release": "pnpm build && changeset publish"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.27.1",
+    "@changesets/cli": "^2.31.0",
     "oxlint": "latest",
-    "typescript": "^5.4.5",
-    "vitest": "^1.6.0"
+    "typescript": "^5.9.3",
+    "vitest": "^1.6.1"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

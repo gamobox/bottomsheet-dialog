@@ -3,3 +3,7 @@ packages:
   - 'apps/*'
 allowBuilds:
   esbuild: false
+minimumReleaseAgeExclude:
+  - esbuild@0.24.3
+  - vite@6.4.2
+  - ws@8.20.1
