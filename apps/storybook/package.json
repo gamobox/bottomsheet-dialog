@@ -1,6 +1,6 @@
 {
   "name": "@bottomsheet-dialog/storybook",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "scripts": {
     "storybook": "storybook dev -p 6006",
